@@ -1,0 +1,9 @@
+---
+layout: news
+title: Blog
+author: all
+---
+
+{% for post in site.posts %}
+{% include news_excerpt.html %}
+{% endfor %}

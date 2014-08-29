@@ -1,0 +1,118 @@
+/*
+## Colors
+    darkyellow  #f0c945
+
+*/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+header .nav {
+    margin-top: 8px;
+}
+
+header .nav a {
+    color: #333;
+    font-weight: bold;
+}
+
+header .nav > li > a:hover,
+header .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #f0c945;
+}
+
+.jumbotron {
+    background-color: #f0c945;
+}
+
+.jumbotron .col-md-5 {
+    margin-top: 150px;
+}
+
+.jumbotron .title {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.jumbotron .sub-title {
+    font-size: 1.4em;
+}
+
+.jumbotron .download-button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.jumbotron .download-button .btn {
+    padding: 16px;
+    font-size: 1.65em;
+    width: 100%;
+}
+
+.carousel-indicators {
+    margin-left: 190px;
+    bottom: 10px;
+    width: 20%;
+}
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #f0c945;
+}
+.carousel-indicators li.active {
+    background-color: #f0c945;
+}
+
+.item img {
+    float: right;
+}
+
+.feature-wrap {
+    margin-bottom: 30px;
+}
+
+.feature-title {
+    font-weight: bold;
+}
+.post-title {
+    margin-bottom: 0;
+}
+
+.post-title a {
+    color: #f0c945;
+}
+
+.post-date {
+    color: #444;
+    font-size: 0.8em;
+}
+
+.new > h2 a {
+    color: #f0c945;
+}
+
+.new a {
+    color: #f0c945;
+}
+
+.new .post-category {
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: #f0c945;
+}
+
+.new .post-category .cat-label {
+    color: white;
+}
+
+footer {
+    min-height: 100px;
+    background-color: #f0c945;
+    color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: right;
+}

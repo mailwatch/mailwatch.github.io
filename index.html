@@ -1,38 +1,111 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>MailWatch</title>
-    <style>
-        html {
-            width: 100%;
-            height: 100%;
-        }
+---
+layout: site
+---
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h3 class="title">MailWatch 1.2</h3>
+                <span class="sub-title">A web based front-end to MailScanner</span>
+                <div class="download-button">
+                    <a class="btn btn-large btn-primary" href="https://github.com/mailwatch/1.2.0"><i class="fa fa-github"></i> Download Now</a>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div id="screenshotCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#screenshotCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#screenshotCarousel" data-slide-to="1"></li>
+                        <li data-target="#screenshotCarousel" data-slide-to="2"></li>
+                        <li data-target="#screenshotCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item"><img src="/img/319127.jpg" alt="Screenshot of Recent Messages"></div>
+                        <div class="item"><img src="/img/319129.jpg" alt="Screenshot of Reports list"></div>
+                        <div class="item"><img src="/img/319131.jpg" alt="Screenshot of Whitelist/Blacklist"></div>
+                        <div class="item"><img src="/img/319133.jpg" alt="Screenshot of Total Processed Mail report"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-        img {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 308px;
-            height: 84px;
-            margin-top: -42px; /* Half the height */
-            margin-left: -154px; /* Half the width */
-        }
-    </style>
-</head>
-<body>
-<a href="https://github.com/mailwatch/1.2.0">
-    <img src="img/logo.png" alt="MailWatch Logo"
-</a>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div class="container features-section-wrapper" id="features">
+    <div class="row">
+        <div class="col-md-4 feature-wrap">
+            <h4 class="feature-title"><i class="fa fa-list-alt"></i> Simple Interface</h4>
 
-  ga('create', 'UA-51156205-1', 'auto');
-  ga('send', 'pageview');
+            <div class="feature-text">
+                MailWatch comes with a simple and intuitive Web Interface.
+                Written in PHP and powered by MySQL, browsing incoming and outgoing email is just a click away;
+                color-coded display of recently processed mail make it even easier.
+            </div>
+        </div>
 
-</script>
-</body>
-</html>
+        <div class="col-md-4 feature-wrap">
+            <h4 class="feature-title"><i class="fa fa-bolt"></i> Easy to Install</h4>
+
+            <div class="feature-text">
+                The easiest MailScanner frontend to install.<br>
+                Installing MailWatch is just as simple as copying files in the right place, setting right read
+                permissions and personalizing configuration values.
+            </div>
+        </div>
+
+        <div class="col-md-4 feature-wrap">
+            <h4 class="feature-title"><i class="fa fa-paper-plane"></i> Multiple SMTP Mail Server Support</h4>
+
+            <div class="feature-text">
+                MailWatch, as MailScanner, supports several SMTP mail server, like PostFix, Exim and Sendmail.<br>
+                Keep your prefered server, just add MailWatch!
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 feature-wrap">
+            <h4 class="feature-title"><i class="fa fa-bar-chart-o"></i> Awesome Reports</h4>
+
+            <div class="feature-text">
+                Keep an eye on what's going on using reports with customisable filters and graphs.
+            </div>
+        </div>
+
+        <div class="col-md-4 feature-wrap">
+            <h4 class="feature-title"><i class="fa fa-users"></i> Per Domain and User Filter</h4>
+
+            <div class="feature-text">
+                Multiple user levels: user, domain and admin that limit the data and features available to each.
+            </div>
+        </div>
+
+        <div class="col-md-4 feature-wrap">
+            <h4 class="feature-title"><i class="fa fa-envelope-o"></i> Quarantine management</h4>
+
+            <div class="feature-text">
+                Quarantine management allows you to release, delete or run `sa-learn` across any quarantined messages.
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 feature-wrap">
+            <h4 class="feature-title"><i class="fa fa-sitemap"></i> Centralized View of Multiple Installations</h4>
+
+            <div class="feature-text">
+                XML-RPC support that allows multiple MailScanner/MailWatch installations to act as one
+            </div>
+        </div>
+
+        <div class="col-md-4 feature-wrap">
+            <h4 class="feature-title"><i class="fa fa-life-ring"></i> Community Support</h4>
+
+            <div class="feature-text">
+                MailWatch is backed by a great and growing community.
+                Joining the <a href="https://lists.sourceforge.net/lists/listinfo/mailwatch-users">support mailing-list</a> is fast and immediate
+            </div>
+        </div>
+    </div>
+</div>
