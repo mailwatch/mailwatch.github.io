@@ -1,6 +1,6 @@
 #MailWatch.org
 
-Repository for MailWatch website
+Repository for MailWatch.org website
 
 ##License
 
