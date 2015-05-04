@@ -1,7 +1,7 @@
 ---
 layout: news_single
 title: 'MailWatch 1.2.0-beta8 released'
-date: 2015-02-09 12:55:00 +0200
+date: 2015-04-30 11:26:00 +0200
 author: endelwar
 version: 1.2.0-beta8
 categories: [release]
