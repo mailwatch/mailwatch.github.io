@@ -1,7 +1,6 @@
-markdown: kramdown
 kramdown:
   input: GFM
-highlighter: pygments
+  syntax_highlighter: rouge
 show_drafts: false
 permalink: /news/:year/:month/:day/:title/
 excerpt_separator: "\n\n"
