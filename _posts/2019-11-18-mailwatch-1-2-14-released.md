@@ -1,7 +1,7 @@
 ---
 layout: news_single
 title: 'MailWatch 1.2.14 released'
-date: 2018-11-28 10:41:42 +0200
+date: 2019-11-28 10:41:42 +0200
 author: endelwar
 version: 1.2.14
 categories: [release]
