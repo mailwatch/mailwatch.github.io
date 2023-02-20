@@ -1,6 +1,6 @@
 ---
 layout: news_single
-title: 'MailWatch 1.2.17 released'
+title: 'MailWatch 1.2.18 released'
 date: 2021-10-19 10:15:42 +0200
 author: endelwar
 version: 1.2.18
