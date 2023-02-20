@@ -8,4 +8,3 @@ timezone: Europe/Rome
 exclude: ["Gemfile", "Gemfile.lock", "README.md", "bin"]
 github:
   username: mailwatch/mailwatch.github.io
-google_analytics_id: UA-xxxx-xx
