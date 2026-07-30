@@ -1,11 +1,13 @@
 ---
 layout: news_single
 title: 'MailWatch 1.2.25 released'
-date: 2024-11-15 10:00:00 +0100
+date: 2026-02-24 18:06:00 +0100
 author: endelwar
 version: 1.2.25
 categories: [release]
 ---
+
+A new version of MailWatch is released in the wild.
 
 ## What's Changed
 
