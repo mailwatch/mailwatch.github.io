@@ -9,25 +9,34 @@ layout: site
                 <span class="sub-title">A web-based front-end to MailScanner</span>
                 <div class="download-button">
                     <a class="btn btn-large btn-primary" href="https://github.com/mailwatch/MailWatch/releases"><i
-                            class="fa fa-github"></i> Download Now</a>
+                            class="fa fa-github" aria-hidden="true"></i> Download Now</a>
                 </div>
             </div>
             <div class="col-md-7">
-                <div id="screenshotCarousel" class="carousel slide" data-ride="carousel">
+                <div id="screenshotCarousel" class="carousel slide" data-ride="carousel" aria-label="Screenshots">
                     <ol class="carousel-indicators">
-                        <li data-target="#screenshotCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#screenshotCarousel" data-slide-to="1"></li>
-                        <li data-target="#screenshotCarousel" data-slide-to="2"></li>
-                        <li data-target="#screenshotCarousel" data-slide-to="3"></li>
+                        <li data-target="#screenshotCarousel" data-slide-to="0" class="active" aria-label="Slide 1"></li>
+                        <li data-target="#screenshotCarousel" data-slide-to="1" aria-label="Slide 2"></li>
+                        <li data-target="#screenshotCarousel" data-slide-to="2" aria-label="Slide 3"></li>
+                        <li data-target="#screenshotCarousel" data-slide-to="3" aria-label="Slide 4"></li>
                     </ol>
                     <!-- Carousel items -->
-                    <div class="carousel-inner">
-                        <div class="active item"><img src="/img/319127.jpg" alt="Screenshot of Recent Messages"></div>
-                        <div class="item"><img src="/img/319129.jpg" alt="Screenshot of Reports list"></div>
-                        <div class="item"><img src="/img/319131.jpg" alt="Screenshot of Whitelist/Blacklist"></div>
-                        <div class="item"><img src="/img/319133.jpg" alt="Screenshot of Total Processed Mail report">
+                    <div class="carousel-inner" role="listbox" aria-live="polite">
+                        <div class="active item" role="option"><img src="/img/319127.jpg" alt="Screenshot of Recent Messages"></div>
+                        <div class="item" role="option"><img src="/img/319129.jpg" alt="Screenshot of Reports list"></div>
+                        <div class="item" role="option"><img src="/img/319131.jpg" alt="Screenshot of Whitelist/Blacklist"></div>
+                        <div class="item" role="option"><img src="/img/319133.jpg" alt="Screenshot of Total Processed Mail report">
                         </div>
                     </div>
+                    <!-- Carousel controls -->
+                    <a class="left carousel-control" href="#screenshotCarousel" data-slide="prev" role="button">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#screenshotCarousel" data-slide="next" role="button">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
         </div>
