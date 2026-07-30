@@ -5,6 +5,6 @@ show_drafts: false
 permalink: /news/:year/:month/:day/:title/
 excerpt_separator: "\n\n"
 timezone: Europe/Rome
-exclude: ["Gemfile", "Gemfile.lock", "README.md", "bin"]
+exclude: ["Gemfile", "Gemfile.lock", "README.md", "bin", "vendor"]
 github:
   username: mailwatch/mailwatch.github.io
