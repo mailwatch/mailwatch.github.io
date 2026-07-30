@@ -26,6 +26,8 @@ header .nav > li > a:focus {
 
 .jumbotron {
     background-color: #f0c945;
+    padding: 30px 15px;
+    margin-bottom: 30px;
 }
 
 .jumbotron .col-md-5 {
@@ -53,23 +55,10 @@ header .nav > li > a:focus {
     width: 100%;
 }
 
-.carousel-indicators {
-    margin-left: 190px;
-    bottom: 10px;
-    width: 20%;
-}
-
-.carousel-indicators li {
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #f0c945;
-}
-
-.carousel-indicators li.active {
-    background-color: #f0c945;
-}
-
-.item img {
-    float: right;
+#screenshotCarousel {
+    width: 100%;
+    max-width: 640px;
+    margin-left: auto;
 }
 
 .feature-wrap {
@@ -80,12 +69,20 @@ header .nav > li > a:focus {
     font-weight: bold;
 }
 
+.news h1,
 .post-title {
+    margin-top: 20px;
     margin-bottom: 0;
 }
 
 .post-title a {
     color: #f0c945;
+    text-decoration: none;
+}
+
+.post-title a:hover,
+.post-title a:focus {
+    text-decoration: underline;
 }
 
 .post-date {
@@ -99,6 +96,12 @@ header .nav > li > a:focus {
 
 .new a {
     color: #f0c945;
+    text-decoration: none;
+}
+
+.new a:hover,
+.new a:focus {
+    text-decoration: underline;
 }
 
 .new .post-category {
